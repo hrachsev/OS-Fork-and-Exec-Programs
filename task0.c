@@ -28,7 +28,7 @@ int main() {
         printf("Parent after third fork (PID = %d, Child PID = %d)\n", getpid(), pid);
     }
 
-    // Keep processes alive for a while to check the process tree
+    
     sleep(10);
 
     return 0;
