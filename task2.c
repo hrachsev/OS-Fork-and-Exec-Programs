@@ -24,7 +24,7 @@ int main() {
 	wait(NULL);
 
 
-    printf("Parent process done (PID = %d)\n", getpid());
+    printf("Parent process comleted\n");
 
     return 0;
 }
